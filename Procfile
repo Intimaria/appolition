@@ -1,1 +1,1 @@
-web: gunicorn firstapp:app --log-file=-
+web: python retweet.py
